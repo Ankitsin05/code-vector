@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const { faker } = require("@faker-js/faker");
 
-const Product = require("../models/Product");
+const Product = require("../models/product");
 
 dotenv.config();
 
